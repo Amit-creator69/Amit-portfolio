@@ -4,6 +4,8 @@
 }
 html{
     overflow-x:hidden ;
+  scroll-behavior: smooth;
+
 }
 body {
     
@@ -145,7 +147,17 @@ p {
     margin-left: px;
     padding: 4px;
 }
+    .hero-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background:url(images/11.png); 
+    background-size: 100%,100%;
     
+}
+
 }
 .menu-item:hover {
     color: #36b864;
@@ -243,7 +255,7 @@ p {
     top: 0;
     left: 0;
     width: 100%;
-    height: 200px;
+    height: 180px;
     background:url(images/11.png); 
     background-size: 100%,100%;
     
